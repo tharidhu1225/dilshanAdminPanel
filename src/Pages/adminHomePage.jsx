@@ -14,7 +14,7 @@ import AdminProductsPage from "./productPage";
 import AddProductForm from "./addProductForm";
 import EditProductForm from "./editProductForm";
 import AdminUsers from "./viewAllUsers";
-import DashboardPage from "./DashBord";
+import DashboardPage from "./dashBord";
 
 export default function AdminHomePage() {
   const [user, setUser] = useState(null);
