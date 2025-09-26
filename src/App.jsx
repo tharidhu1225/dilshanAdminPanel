@@ -10,7 +10,7 @@ export default function App() {
    <div className='bg-white'>
      <BrowserRouter>
       <Toaster position='top-right'/>
-      <GoogleOAuthProvider clientId='189763067099-27hgu3rbnq2o0jkudi9o0d2nti6k0kr7.apps.googleusercontent.com'>
+      <GoogleOAuthProvider clientId='189763067099-4hp4lnrr5ahrbmk7j5i26hom6l8n5ngl.apps.googleusercontent.com'>
       <Routes path="/*">      
         <Route path="/*" element={<AdminHomePage/>}/>  
         <Route path="login" element={<LoginPage/>}/> 
@@ -18,6 +18,7 @@ export default function App() {
       </Routes>
       </GoogleOAuthProvider>
      </BrowserRouter>
+     {/*189763067099-27hgu3rbnq2o0jkudi9o0d2nti6k0kr7.apps.googleusercontent.com*/}
     </div>
   )
 }
